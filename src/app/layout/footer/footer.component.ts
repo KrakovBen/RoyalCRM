@@ -4,11 +4,10 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-footer',
   templateUrl: './footer.component.html'
 })
-export class FooterComponent implements OnInit {
+export class FooterComponent  {
+  createdBy: string = "Ben Krakovsky";
+  copyYear: number = new Date().getFullYear();
 
   constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }

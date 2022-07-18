@@ -7,6 +7,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { HeaderComponent } from './layout/header/header.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { MainComponent } from './layout/main/main.component';
+import { SideNavComponent } from './layout/main/side-nav/side-nav.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { MainComponent } from './layout/main/main.component';
     ContactComponent,
     HeaderComponent,
     FooterComponent,
-    MainComponent
+    MainComponent,
+    SideNavComponent
   ],
   imports: [
     BrowserModule,
